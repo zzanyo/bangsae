@@ -3,29 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bangsae_pedia</title>
+    <title>bangsae</title>
+    <link rel="stylesheet" href="bangsae_style.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'uos1pwe',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 </head>
 <body>
-    <img src="title.png" width="500" alt="">
-    <h1>Bangsae_pedia</h1>
-    <ol>
-        <li><a href="more.html">방세 알아보기</a></li>
-        <li><a href="rule.html">회칙</a></li>
-        <li><a href="photo.html">사진첩</a></li>
-        <li><a href="notice.html">공지사항</a></li>
-    </ol>
-<!--    <ol>
-        <li><a href="more.html"><font color="black">방세 알아보기</font></a></li>
-        <li><a href="rule.html"><font color="black">회칙</font></a></li>
-        <li><a href="photo.html"><font color="black">사진첩</font></a></li>
-        <li><a href="notice.html"><font color="black">공지사항</font></a></li>
-    </ol>
--->
+    <div class="container">
+        <header>
+            <a href="bangsae.html">
+            <img src="bangsae_logo.png" width="100%" alt="bangsae_logo">
+            </a>
+        </header>
+        <section class="content">
+            <nav class="nav">
+                <ol>
+                <div>
+                    <li>
+                        <a href="bangsae.html">
+                            <div class="box">
+                                <img class="icon" src="home-05.svg" alt="home">
+                                <span>홈</span>
+                            </div>
 
-    <p>
-        방세는 충북대학교 학군 58기 일부가 모여 만든 소모임으로 시작되었습니다.<br>
-방세의 설립 목적은 친목도모를 우선으로 하고 주기적으로 만남을 갖고 있습니다.<br>
-또한 방세 구성원들은 전국 각지에 맡은 바 최선을 다하면서 생활하고 있습니다.
-    </p>
+                        </a>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <a href="photo.html">
+                            <div class="box">
+                            <img class="icon" src="folder.svg" alt="photo">
+                            <span>사진</span>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <a href="rules.html">
+                            <div class="box">
+                            <img class="icon" src="book-closed.svg" alt="rules">
+                            <span>회칙</span>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <a href="notice.html">
+                            <div class="box">
+                            <img class="icon" src="clipboard.svg" alt="notice">
+                            <span>공지사항</span>
+                                </div>
+                        </a>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <a href="message.html">
+                            <div class="box">
+                            <img class="icon" src="message-smile-square.svg" alt="message">
+                            <span>메시지</span>
+                                </div>
+                        </a>
+                    </li>
+                </div>
+                <div>
+                    <li>
+                        <a href="more.html">
+                            <div class="box">
+                            <img class="icon" src="dots-horizontal.svg" alt="more">
+                            <span>더 알아보기</span>
+                                </div>
+                        </a>
+                    </li>
+                </div>
+                </ol>
+            </nav>
+            <main>
+            <div class="article">
+        <p><h3>방세란?</h3></p>
+        <p>방세는 충북대학교 학군 58기 일부가 모여 만든 소모임으로 시작되었습니다.</p>
+        <p>방세의 설립 목적은 친목도모를 우선으로 하며 주기적으로 만남을 갖고 있습니다.</p>
+        <p>또한 방세 구성원들은 전국 각지에서 자신의 맡은 바 최선을 다하면서 살아가고 있습니다.</p>
+            </div>
+            </main>
+        </section>
+        <footer>
+            <a href="https://www.instagram.com/bangsae_58">방세인스타그램</a>
+        </footer>
+    </div>
 </body>
 </html>
